@@ -1,0 +1,34 @@
+{
+    "name": "MARIA'S ADVENTURE",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "sprite-scaling": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#v0.1.2",
+        "browser-events": "*",
+        "pxt-zoom": "github:kiwiphoenix364/pxt-zoom#v3.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.12",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
